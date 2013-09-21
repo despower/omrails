@@ -1,5 +1,5 @@
 source 'https://rubygems.org'
-ruby '2.0.0'
+
 
 gem 'rails', '3.2.12'
 
@@ -29,6 +29,8 @@ group :assets do
 end
 
 gem 'jquery-rails'
+
+gem 'rails_12factor', group: :production
 
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
